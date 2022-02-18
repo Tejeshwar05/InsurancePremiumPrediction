@@ -1,0 +1,2 @@
+2022-02-18/15:57:38		Starting encoding of data
+2022-02-18/15:57:39		Encoding complete exiting

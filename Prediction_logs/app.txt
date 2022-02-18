@@ -1,0 +1,10 @@
+2022-02-18/15:56:59		entered into homepage
+2022-02-18/15:57:09		database  connected
+2022-02-18/15:57:09		database connected and created table successfully
+2022-02-18/15:57:10		database closed suceesfully@app
+2022-02-18/15:57:10		App started. Exiting method...
+2022-02-18/15:57:28		Getting input from Form
+2022-02-18/15:57:28		Entered into predict function@app
+2022-02-18/15:57:38		entered input data into the database successfully@app
+2022-02-18/15:57:38		signout from db@app
+2022-02-18/15:57:39		Prediction for data complete

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Premium Prediction</title>
+
+{% endblock %}
+
+{% block body %}
+<body bgcolor="Olive">
+
+<div class="content">
+    <h1 style="text-align: center">Welcome To The Insurance Premium Prediction</h1>
+    <h4 >Please enter the inputs</h4>
+
+    <div class="form">
+        <form action="/input" method="POST">
+
+            <label>Age</label>
+            <input type="number" name="Age" id="Age" placeholder="Age">
+
+            <label>Bmi</label>
+            <input type="number" name="Bmi" id="bmi" placeholder="BMI">
+
+            <label>Sex</label>
+            <select name="Sex" id="Sex">
+  <option >Female</option>
+  <option >Male</option>
+</select>
+
+            <label>Children</label>
+            <input type="number" name="Children" id="Children" placeholder="Children You Have">
+
+            <label>Smoker</label>
+            <select name="Smoker" id="Smoker">
+  <option >Yes</option>
+  <option >No</option>
+</select>
+            <label>Region</label>
+            <select name="region" id="region">
+             {%for option in data['region'] %}
+                        <option selected>{{option}}</option>
+                      {% endfor %}
+            </select>
+ <div>
+                 <input class="btn btn-primary" type="submit" value="predict" style="height: 35px;margin-top: 22px;">
+            <input type="reset" value="Reset" style="height: 35px;margin-top: 22px;">
+
+ </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+</body>
+
+

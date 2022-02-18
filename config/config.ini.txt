@@ -1,0 +1,4 @@
+[database]
+path=config/secure-connect-insurance-project.zip
+clientid=djqLKOMNSOgFqoyPWzZYkoFW
+clientsecret=YHlTSuQ,iiCnQP8FO8DZuZ5Mf4H,4B5PD2CChorFZPAL13zcoTeG1v_txIbARnWHcbUat2d3JWko,SGoiW8KjemPbZX5Pafqz7gxdUXULm7WnRr+Ybl2H,xuOpCrIfLn
