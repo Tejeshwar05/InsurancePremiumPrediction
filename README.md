@@ -20,6 +20,6 @@ Pickle File : Selected model as per best accuracy and created pickle file.
 
 Webpage & deployment : Created a webform that takes all the necessary inputs from user and shows output. And deployed the project on heroku
 
-Deployment link:https://insurance1802.herokuapp.com/
+Deployment link:https://insurance2022.herokuapp.com/
 Technologies used:
 1.python 2. Sklearn(Building a model) 3. Flask 4. Pandas, Numpy(Data manipulation) 5. Database (Cassandra, for Storing the inputs) 6. gunicorn(Heroku) 7. HTML(UI)
